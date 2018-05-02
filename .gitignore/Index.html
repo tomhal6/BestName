@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="stilark.css">
+<title>Her setter du inn en tittel</title>
+</head>
+<body>
+<ul>
+	<li><a href="http://www.google.com" target="_blank">Har</a></li>
+	<li><a href="meg.html">Tommas</a></li>
+</ul>
+<!-- EN KOMMENTAR -->
+&lt;head&gt;
+<h1>What is Lorem Ipsum?</h1>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.<br> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+<h1>Why do we use it?</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec pharetra dui. Phasellus ex nisl, consequat eget semper non, lacinia eu enim. Morbi nec elit eros. Phasellus dictum ultrices dolor, ac laoreet leo pharetra nec. Mauris pulvinar commodo sapien in tristique. Sed posuere enim mauris, sit amet egestas nisl elementum sed. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus a sagittis eros. Ut ut nulla ante. Phasellus ultrices luctus tincidunt. Aliquam ut mauris congue, commodo diam et, rhoncus augue. Vestibulum nec metus elit. Curabitur sem ante, hendrerit non neque vel, posuere tristique sem. Nunc malesuada mattis mattis. Praesent dapibus orci urna, a vestibulum mi aliquet in. Donec quis velit vitae diam facilisis scelerisque eget ut augue. </p>
+
+<h1>Where does it come from?</h1>
+<p>Sed ac congue justo. Mauris rhoncus euismod velit nec cursus. Nulla facilisi. Aenean ac leo in velit tempor lobortis sagittis at sem. Quisque quam nunc, tempor vitae luctus quis, facilisis nec turpis. Nam non tincidunt leo. Vestibulum vel pulvinar ligula. Sed bibendum quam lacinia porttitor maximus. Donec non nisl augue. Praesent luctus congue malesuada. </p>
+
+<h1>Who am I?</h1>
+<p>None of your businessNone of your businessNone of your businessNone of your businessNone of your businessNone of your businessNone of your businessNone of your businessNone of your businessNone of your businessNone of your businessNone of your businessNone of your businessNone of your businessNone of your businessNone of your businessNone of your businessNone of your business</p>
+<img src="secrets.png" alt="? ? ? ? ?" coords="290,172,333,250">
+<h1>Why not laundry pods?</h1>
+<ol type="1">
+	<li>They taste good </li>
+	<li>Everyone is doing it </li>
+	<li>You can use them to clean your clothes and the genepool </li>
+</ol>
+
+<h1>Where can I get some?</h1>
+
+<div id="map" style="width:650px;height:650px;"></div>
+
+<script>
+function myMap() {
+	var myCenter = new google.maps.LatLng(60.3852908,5.3382893);
+	var myHome = new google.maps.LatLng(60.3788632,5.3278969);
+	var mapOptions = {center: myCenter, zoom: 17};
+	var mapCanvas = document.getElementById("map");
+	var map = new google.maps.Map(mapCanvas, mapOptions);
+	var marker = new google.maps.Marker({position:myCenter});
+	marker.setMap(map);
+	var marker = new google.maps.Marker({position:myHome});
+	marker.setMap(map);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?AIzaSyBYi9jIT3mRKX3CJ7FJdDwqd68d_Mruc-Q&callback=myMap"></script>
+
+<h1>Unordered</h1>
+<ul>
+	<li>yep </li>
+	<li>nope </li>
+	<li>mayb </li>
+</ul>
+<h1>F0BAlL</h1>
+<table style="width:60%">
+	<tr>
+		<th>Club</th>
+		<th>Points</th>
+		<th>Matches Played</th>
+		<th>Goals Difference</th>
+	</tr>
+	<tr>
+		<th>Man. City</th>
+		<th>65</th>
+		<th>24</th>
+		<th>+52</th>
+		
+	</tr>
+	<tr>
+		<th>Man United</th>
+		<th>53</th>
+		<th>24</th>
+		<th>+33</th>
+	</tr>
+	<tr>
+		<th>Chelsea</th>
+		<th>50</th>
+		<th>24</th>
+		<th>+29</th>
+	</tr>
+	<tr>
+		<th>Liverpool</th>
+		<th>47</th>
+		<th>24</th>
+		<th>+25</th>
+	</tr>
+	<tr>
+		<th>Tottenham</th>
+		<th>45</th>
+		<th>24</th>
+		<th>+25</th>
+	</tr>
+</table>
+<div class="dropdown">
+	<button onclick="myFunction()" class="dropbtn">Dropdown</button>
+	<div id="myDropdown" class="dropdown=content">
+		<a href="#">Link 1</a>
+		<a href="#">Link 2</a>
+		<a href="#">Link 3</a>
+	</div>
+</div>
+
+
+</body>
+</html>
